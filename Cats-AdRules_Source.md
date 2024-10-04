@@ -32,6 +32,7 @@
  https://filters.adavoid.org/ultimate-privacy-filter.txt | ABP | ultimate Team | GNU GPLv3 / CC BY 3.0 |  |  
  https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt | ABP | Fanboy Team | GNU GPLv3 / CC BY 3.0 |  |  
  https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt | ABP | Banbendalao | MIT License |  
+ https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/AWAvenue-Ads-Rule.txt | ABP | TG-Twilight | CC BY-NC-SA 4.0 |  
  https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt | ABP | hoshsadiq | MIT License |  
  https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt | ABP | durablenapkin | MIT License | 
  https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock | ABP | d3ward | CC BY-NC-SA | |
