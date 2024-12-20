@@ -9,7 +9,7 @@ def get_fan_conf():
     config = configparser.ConfigParser()
     config.read("config.ini")
 
-    url = 'https://git.acwing.com/xcz/xcz/-/raw/master/xcz.jso'
+    url = 'https://git.acwing.com/xcz/xcz/-/raw/master/xcz.json'
     response = requests.get(url, headers=headers)
     match = re.search(r'[A-Za-z0]{8}\*\*(.*)', response.text)
 
