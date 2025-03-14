@@ -54,23 +54,34 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-filter:
     - "*"
-    - "+.lan"
-    - "+.local"
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
+    - "*.lan"
+    - "*.local"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
     - "localhost.ptlogin2.qq.com"
     - "localhost.sec.qq.com"
     - "localhost.work.weixin.qq.com"
+  default-nameserver:
+    - '119.29.29.29'
+    - '223.5.5.5'
+    - '1.2.4.8'
+    - '1.1.1.1'
+    - '208.67.222.222'
+    - '8.8.8.8'
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
   proxy-server-nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+    - https://doh.360.cn/dns-query
   nameserver-policy:
     "geosite:cn,private":
       - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
     "geosite:geolocation-!cn":
       - "https://dns.cloudflare.com/dns-query"
       - "https://dns.google/dns-query"
+      - "https://doh.opendns.com/dns-query"
